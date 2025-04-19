@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Faizaan Khan - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="navbar">
+    <div>Faizaan's Portfolio</div>
+    <div>
+      <a href="#" onclick="showTab('about')">About Me</a>
+      <a href="#" onclick="showTab('learning')">Learning</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="tabs">
+      <button onclick="showTab('about')" id="about-tab" class="active">About Me</button>
+      <button onclick="showTab('learning')" id="learning-tab">What I'm Learning</button>
+    </div>
+
+    <div id="about" class="tab-content active">
+      <header>
+        <h1>Mohammed Faizaan Khan</h1>
+        <p>1st Year, 2nd Semester - CSE (AI)<br>Methodist Engineering College, Abids</p>
+      </header>
+      <section>
+        <h2>About Me</h2>
+        <p>Hey! I'm Mohammed Faizaan Khan. I'm currently pursuing my B.Tech in Computer Science and Engineering (Artificial Intelligence) at Methodist Engineering College in Abids. I'm passionate about technology and creativity. I enjoy editing and gaming during my free time. This portfolio is just a small intro to who I am and what I'm aiming for!</p>
+      </section>
+    </div>
+
+    <div id="learning" class="tab-content">
+      <section>
+        <h2>What I'm Doing and Learning</h2>
+        <p>Right now, I'm focused on building a strong foundation in web development and programming. Here's what I'm currently learning:</p>
+        <ul>
+          <li><strong>HTML & CSS:</strong> Structuring and styling websites from scratch.</li>
+          <li><strong>JavaScript:</strong> Making web pages interactive and dynamic.</li>
+          <li><strong>DSA in C & C++:</strong> Understanding Data Structures and Algorithms to strengthen problem-solving skills.</li>
+          <li><strong>Future Goals:</strong> I'm eager to dive into Python, expand my software skills, and explore AI tools.</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
